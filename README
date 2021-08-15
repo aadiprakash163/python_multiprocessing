@@ -1,0 +1,14 @@
+The folder contains two python files.
+
+1)  fd_with_no_mp.py is a conventional approach that does not make use of multiprocessing. To run the file simple run the command:
+python fd_with_no_mp.py
+The command will capture frames from webcam and will save the output video in the same folder.
+
+2) fd_with_mp.py makes use of multiprocessing on live camera feed. To execute the program, run:
+python fd_with_mp.py
+The program will capture frames from webcam and will process them using multiprocessing. Again the output will be saved in the same folder.
+
+
+
+
+
